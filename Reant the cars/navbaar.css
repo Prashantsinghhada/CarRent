@@ -1,0 +1,37 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 2em;
+}
+.navFirstArea{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    place-content:center;
+    color:aliceblue;
+    background-color:rgb(14, 14, 95);
+}
+nav .navSecondArea{
+    position: relative;
+    text-align:center;
+    background-color:rgb(14, 14, 95);
+}
+.navSecondArea img{
+    height: 20px;
+    top:7px;
+    border-radius:0px 3px 3px 0;
+    position: absolute;
+    border-left:none;
+    outline:none;
+}
+.navSecondArea input{
+    position: absolute;
+    right:50%;
+    bottom:5px;
+    border-Right:none;
+    outline:none;
+    padding:1px;
+    border-radius:5px 0px 0px 5px;
+}

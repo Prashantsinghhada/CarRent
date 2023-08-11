@@ -1,0 +1,11 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height:40vh;
+    background-color: aquamarine;
+    
+}

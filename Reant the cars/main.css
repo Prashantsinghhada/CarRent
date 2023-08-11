@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    /* background-color: aqua; */
+    height:20em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+main div img{
+ height:300px;
+}
+
+main .mainContentArea{
+    word-spacing: 3px;
+    padding-bottom:1em;
+}
+main .mainContentArea .branding{
+    width: 200;
+    color: rgb(9, 9, 138);
+    padding-bottom:2em;
+}
+
+main table tr td{
+    /* border: 2px solid coral; */
+    padding:1em;
+
+}
+
+main table tr td .fetures{
+    height:15px;
+    border-radius: 50%;
+    padding-top:3px;
+
+
+}
+
+
+
+#ContectForm form{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+
+}
+#ContectForm form input{
+   width:33%;
+   padding:1em;
+   margin: 0.5em;
+   columns: 2;
+}
+
+#PaymentType{
+ display:grid;
+ grid-template-columns:1fr 5fr;
+ place-items:start;
+ color:rgb(6, 6, 137);
+}
+
+#PaymentType button{
+    background-color: rgb(14, 14, 128);
+    color:aliceblue;
+    border:none;
+    padding:8px;
+    border-radius:5%;
+    float:left;
+    position:static;
+    left:100%;
+}
